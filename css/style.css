@@ -5,18 +5,11 @@
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
 }
-header {
-    background: #222;
-    color: #0c0c0c;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-}
+
 
 header {
-    background: #222;
-    color: #090909;
+    background: #570a0a;
+    color: #f8f5f5;
     padding: 1rem;
     position: fixed;
     width: 100%;
@@ -48,7 +41,8 @@ header {
 }
 
   .nav ul li a {
-  color:#090909;
+
+  color:#fafafa;
   text-decoration: none;
   margin-left: 2rem;
   display: flex;
