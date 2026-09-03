@@ -36,6 +36,94 @@
     </div>
   </header>    
 
+  <!-- AQUÍ INICIA EL MAIN   -->
+  <main>
+    <!-- HERO con video, si no quiero video, pendiente con cambiarlo -->
+    <section class="hero video-hero">
+      <video class="hero-video" id="heroVideo" autoplay loop playsinline>
+        <source src="img/Video_pies_con_cora.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+
+      <!--estos son los botones que estan dentro del video-->
+      <div class="hero-content container">
+        <div class="hero-actions">
+          <a class="btn primary" href="https://forms.gle/9bGxM41iZmSR8NVj6">compra en línea</a>
+          <a class="btn outline" href="#voluntariado">Reserva</a>
+        </div>
+
+        <!--Estas tarjetas es para colocar estadisticas y la clase de staf es para colocarlo datos-->
+
+        <div class="stats-grid">
+          <div class="stat">
+            <div class="stat-number">+20 </div>
+            <div class="stat-label">platillos</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">+1000</div>
+            <div class="stat-label">sabores</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">infinitas</div>
+            <div class="stat-label">experiencias</div>
+          </div>
+        </div>
+      </div>
+    </section> <!--Fin hero y cierra las estadísticas y todo-->
+
+<!--Aqui hay tres tarjetas para destacar proyectos, ventas, serivicios, etc-->
+
+    <section id="proyectos" class="projects container">
+      <h2>Punto verde</h2>
+      <p class="lead">Servimos los mejores platillos, tarde dia y noche</p>
+
+      <div class="project-cards">
+        <article class="card">
+          <div class="card-img" id="antioquia-caucasia"></div>
+          <div class="card-body">
+            <h3>Nuevos platillos</h3>
+            <p>tenemos nuevos platillos con la misma esencia pero diferente sabor y claro nuevas presentaciones
+              para que todos disfruten pero a su modo
+            </p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img" id="guajira"></div>
+          <div class="card-body">
+            <h3>Desayunos, Comidas y Cenas</h3>
+            <p>Quieres desayunar, comer o cenra? Este es el lugar perfecto si te gista lo natural pero sobre todo
+              lo especial
+            </p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img" id="cordoba"></div>
+          <div class="card-body">
+            <h3>Sabores UNICOS</h3>
+            <p>En el punto verde nuestros sabores son incomparables pero sobre todo UNICOS e INIGUALABLES</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="newsletter">
+      <div class="container newsletter-inner">
+        <div>
+          <h2>¡No te lo pierdas!</h2>
+          <p>No te quedes sin probar el PUNTO VERDE el mejor restaurante con las mejores Comidas
+             ven ahora y compruebalo TU mismo</p>
+        </div>
+        <form id="subscribeForm" class="subscribe-form" novalidate>
+          <input id="email" type="email" placeholder="Tu correo electrónico" required />
+          <button class="btn primary" type="submit">Suscribirme</button>
+        </form>
+        <div id="formMessage" class="form-message"></div>
+      </div>
+    </section>
+  </main>
+
+
+
    <footer>
 
   <div class="footer-social">
@@ -66,7 +154,7 @@
 
   <div class="footer-bottom">
     <div class="container">
-      &copy; <span id="anio"></span> DEL NORTH CAPS
+      &copy; <span id="anio"></span> PUNTO VERDE
     </div>
   </div>
 
