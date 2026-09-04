@@ -26,10 +26,10 @@
       </a>
       <nav class="main-nav" id="mainNav">
         <ul>
-          <li><a href="#menu">menu</a></li>
-          <li><a href="#reservas">reservas</a></li>
-          <li><a href="#contacto">contacto</a></li>
-          <li><a class="btn-shop" href="#shop">Dona</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#reservas">Reservas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a class="btn-shop" href="#shop">Shop</a></li>
         </ul>
       </nav>
       <button id="menuToggle" class="menu-toggle">☰</button>
@@ -39,13 +39,39 @@
   <!-- AQUÍ INICIA EL MAIN   -->
   <main>
     <!-- HERO con video, si no quiero video, pendiente con cambiarlo -->
-    <section class="hero video-hero">
-      <video class="hero-video" id="heroVideo" autoplay loop playsinline>
+    <!--<section class="hero video-hero">-->
+     <!-- <video class="hero-video" id="heroVideo" autoplay loop playsinline>
         <source src="img/Video_pies_con_cora.mp4" type="video/mp4" />
       </video>
-      <div class="hero-overlay"></div>
+      <div class="hero-overlay"></div> -->
 
-      <!--estos son los botones que estan dentro del video-->
+
+    <!--</section>--> <!--Fin hero y cierra las estadísticas y todo-->
+
+
+      <!-- CARRUSEL DE IMÁGENES / LANZAMIENTOS / PRODUCTOS ETC -->
+    <section id="lanzamientos" class="carousel-section container">
+      <h2>Nuevos Lanzamientos</h2>
+
+
+      <div class="carousel" id="carousel">
+        <div class="carousel-track" id="carouselTrack">
+          <div class="carousel-slide">
+            <img src="img/carrusel1.jpg" alt="Consultorías TechIY">
+            <p class="carousel-caption">Comidas</p>
+          </div>
+          <div class="carousel-slide">
+            <img src="img/carrusel2.jpg" alt="Talleres TechIY">
+            <p class="carousel-caption">Desayunos</p>
+          </div>
+          <div class="carousel-slide">
+            <img src="img/carrusel3.jpg" alt="Asesorías TechIY">
+            <p class="carousel-caption">Cenas</p>
+          </div>
+        </div>
+
+
+              <!--estos son los botones que estan dentro del video-->
       <div class="hero-content container">
         <div class="hero-actions">
           <a class="btn primary" href="https://forms.gle/9bGxM41iZmSR8NVj6">compra en línea</a>
@@ -57,19 +83,26 @@
         <div class="stats-grid">
           <div class="stat">
             <div class="stat-number">+20 </div>
-            <div class="stat-label">platillos</div>
+            <div class="stat-label">Platillos</div>
           </div>
           <div class="stat">
             <div class="stat-number">+1000</div>
-            <div class="stat-label">sabores</div>
+            <div class="stat-label">Sabores</div>
           </div>
           <div class="stat">
-            <div class="stat-number">infinitas</div>
-            <div class="stat-label">experiencias</div>
+            <div class="stat-number">Infinitas</div>
+            <div class="stat-label">Experiencias</div>
           </div>
         </div>
       </div>
-    </section> <!--Fin hero y cierra las estadísticas y todo-->
+
+        <button class="carousel-btn prev" id="carouselPrev" aria-label="Anterior">&#10094;</button>
+        <button class="carousel-btn next" id="carouselNext" aria-label="Siguiente">&#10095;</button>
+
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div>
+    </section>
+    <!-- FIN CARRUSEL -->
 
 <!--Aqui hay tres tarjetas para destacar proyectos, ventas, serivicios, etc-->
 
@@ -129,15 +162,15 @@
   <div class="footer-social">
     <div class="container social-icons">
 
-      <a href="https://www.facebook.com/" aria-label="Facebook">
+      <a href="https://www.facebook.com/?locale=es_LA" aria-label="Facebook">
         <i class="fa-brands fa-facebook-f"></i>
       </a>
 
-      <a href="https://www.instagram.com/" aria-label="Instagram">
+      <a href="https://www.instagram.com/?hl=es" aria-label="Instagram">
         <i class="fa-brands fa-instagram"></i>
       </a>
 
-      <a href="https://www.youtube.com/" aria-label="YouTube">
+      <a href="https://www.youtube.com/@pablopicazocarrillo5141" aria-label="YouTube">
         <i class="fa-brands fa-youtube"></i>
       </a>
 
